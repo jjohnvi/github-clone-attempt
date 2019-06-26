@@ -41,6 +41,7 @@
 .main {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .leftside {
@@ -56,7 +57,7 @@
   margin-left: 3vh;
 }
 .rightside {
-  width: 100%;
+  width: 50%;
 }
 
 /* .cv {
@@ -71,6 +72,7 @@
 #status {
   display: flex;
   flex-direction: column;
+  margin: 1;
 }
 
 p {
